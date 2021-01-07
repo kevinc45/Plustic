@@ -10,7 +10,10 @@
                     <div class="col-lg-5 col-md-6">
                         <h1 class="text-white">{{ __('PLUSTIC') }}</h1>
                         <h2 class="text-white">{{ __('Where plastic meet their friends.') }}</h2>
-                    </div>
+                            <a class="text-white" href="aboutus">About Us | </a>
+                            <a class="text-white" href="projects">Our Projects | </a>
+                            <a class="text-white" href="blog">Blog | </a>
+                            <a class="text-white" href="preferences">Preferences</a>
                 </div>
             </div>
         </div>

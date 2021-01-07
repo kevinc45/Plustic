@@ -35,5 +35,20 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::put('profile/password', ['as' => 'profile.password', 'uses' => 'App\Http\Controllers\ProfileController@password']);
 });
 
-Route::get('/blog','App\Http\Controllers\BlogController@index')->name('blog');
+Route::get('/blog','BlogController@index')->name('blog');
 
+Route::get('/projects','projectsController@index')->name('projects');
+Route::get('/projects/add-projects','projectsController@addprojects')->name('add-projects');
+Route::post('/projects/manage','projectsController@manage')->name('manage');
+Route::get('/projects/edit-projects/{id}','projectsController@editprojects')->name('edit-projects');
+Route::post('/projects/update','projectsController@update')->name('update');
+Route::get('/projects/delete-projects/{id}','projectsController@deleteprojects')->name('delete-projects');
+Route::get('/projects/search-projects/','projectsController@searchprojects')->name('search-projects');
+
+Route::get('/aboutus','aboutusController@index')->name('aboutus');
+
+Route::get('/aboutus/{history}','aboutusController@index_history')->name('aboutushistory');
+
+Route::get('/preferences','preferencesController@index')->name('preferences');
+Route::get('/preferences/contactus','preferencesController@contactus')->name('contactus');
+Route::get('/preferences/tos','preferencesController@tos')->name('tos');

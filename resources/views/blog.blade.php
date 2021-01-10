@@ -1,3 +1,4 @@
+@extends('test')
 <!DOCTYPE html>
 <html>
 <head>

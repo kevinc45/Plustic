@@ -43,7 +43,7 @@ Route::post('/projects/manage','projectsController@manage')->name('manage');
 Route::get('/projects/edit-projects/{id}','projectsController@editprojects')->name('edit-projects');
 Route::post('/projects/update','projectsController@update')->name('update');
 Route::get('/projects/delete-projects/{id}','projectsController@deleteprojects')->name('delete-projects');
-Route::get('/projects/search-projects/','projectsController@searchprojects')->name('search-projects');
+Route::get('/projects/search-projects','projectsController@searchprojects')->name('search-projects');
 
 Route::get('/aboutus','aboutusController@index')->name('aboutus');
 

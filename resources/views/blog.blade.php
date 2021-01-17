@@ -10,7 +10,6 @@
 <h1>Blog</h1>
 @endsection
 @section('Content')
-<a href="/">< Back</a>
 	<h3>Blog</h3>
 <p>Where plastic meet their friends.</p>	
 @endsection

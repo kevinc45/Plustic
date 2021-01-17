@@ -44,9 +44,9 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="{{ route('preferences') }}">
-                        <i class="ni ni-settings"></i>
-                        <span class="nav-link-inner--text">{{ __('Preferences') }}</span>
+                    <a class="nav-link nav-link-icon" href="{{ route('contactus') }}">
+                        <i class="ni ni-chat-round"></i>
+                        <span class="nav-link-inner--text">{{ __('Contact Us') }}</span>
                     </a>
                 </li>
                 <li class="nav-item">

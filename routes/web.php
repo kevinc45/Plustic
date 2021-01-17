@@ -49,8 +49,6 @@ Route::get('/aboutus','aboutusController@index')->name('aboutus');
 
 Route::get('/aboutus/{history}','aboutusController@index_history')->name('aboutushistory');
 
-Route::get('/preferences','preferencesController@index')->name('preferences');
-Route::get('/preferences/contactus','preferencesController@contactus')->name('contactus');
-Route::get('/preferences/tos','preferencesController@tos')->name('tos');
+Route::get('/contactus','ContactUsController@contactus')->name('contactus');
 
 Route::get('/test','testController@index')->name('test');

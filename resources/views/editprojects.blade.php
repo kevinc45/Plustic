@@ -1,11 +1,16 @@
-<!DOCTYPE html>
-<html>
+@extends('Test')
+{{-- <!DOCTYPE html>
+<html> --}}
 <head>
     <title>Edit Project - PLUSTIC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/img/brand/favicon.png">
 </head>
-<body>
+@section('Header')
+<h1>Edit Project</h1>
+@endsection
+@section('Content')
+{{-- <body> --}}
  
     <h1>Edit Project</h1>
 	<h4>Make it more awesome!</h4>
@@ -47,7 +52,7 @@
         <input type="submit" value="Update">
 	</form>
 	@endforeach
-		
- 
+	@endsection	
+{{--  
 </body>
-</html>
+</html> --}}

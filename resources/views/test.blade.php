@@ -224,7 +224,7 @@
                     <img alt="Image placeholder" src="{{asset('assets')}}/img/theme/team-4.jpg">
                   </span>
                   <div class="media-body  ml-2  d-none d-lg-block">
-                    <span class="mb-0 text-sm  font-weight-bold">John Snow</span>
+                    {{-- <span class="mb-0 text-sm  font-weight-bold">John Snow</span> --}}
                   </div>
                 </div>
               </a>
@@ -261,7 +261,7 @@
     </nav>
     <!-- Header -->
     <!-- Header -->
-    <div class="header bg-primary pb-4">
+    <div class="header bg-primary pb-4 pt-4">
       <div class="container-fluid">
         <div class="header-body">
             @yield('Header')
@@ -270,7 +270,7 @@
       </div>
     </div>
     <!-- Page content -->
-    <div class="container-fluid mt--6">
+    <div class="container-fluid mt-3">
       <!-- isi content -->
       @yield('Content')
       <!-- Footer -->

@@ -18,7 +18,6 @@
 		margin:5px;
 	}
 </style>
-<a href="/">< Back</a>
 <h1>Our Projects</h1>
 <h3>List of our plastic-friendly projects.</h3>
 <h4>Our projects consists of:</h4>
@@ -52,7 +51,7 @@
 		  <h3 class="mb-0">Projects</h3>
 		</div>
 		<div class="col text-right">
-		  <a href="#!" class="btn btn-sm btn-primary">See all</a>
+		  {{-- <a href="#!" class="btn btn-sm btn-primary">See all</a> --}}
 		</div>
 	  </div>
 	</div>

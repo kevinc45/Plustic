@@ -1,11 +1,17 @@
-<html>
+@extends('test')
+{{-- <html> --}}
 <head>
 	<title>New Project - PLUSTIC</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/img/brand/favicon.png">
+
 </head>
+
+@section ('Header')
+	<h1>Add New Project</h1>
+@endsection
+@section ('Content')
 <body>
- 
 	<h1>Add New Project</h1>
 	<h4>Because we love plastic that much!</h4>
  
@@ -31,6 +37,7 @@
         style="margin: 0px; width: 485px; height: 98px;"></textarea> <br/> <br/>
 		<input type="submit" value="Submit">
 	</form>
- 
+@endsection
+{{--  
 </body>
-</html>
+</html> --}}

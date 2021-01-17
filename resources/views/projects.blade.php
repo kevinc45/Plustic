@@ -1,12 +1,12 @@
 @extends('test')
 {{-- <!DOCTYPE html>
-<html>
+<html>--}}
 <head>
 	<title>Our Projects - PLUSTIC</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/img/brand/favicon.png">
 </head>
-<body> --}}
+{{-- <body> --}}
 	@section('Header')
 	<h1>Projects</h1>	
 	@endsection

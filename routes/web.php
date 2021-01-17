@@ -52,3 +52,5 @@ Route::get('/aboutus/{history}','aboutusController@index_history')->name('aboutu
 Route::get('/contactus','ContactUsController@contactus')->name('contactus');
 
 Route::get('/test','testController@index')->name('test');
+
+Route::get('/logout', 'auth\LoginController@logout')->name('logout');

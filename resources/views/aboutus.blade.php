@@ -41,7 +41,7 @@
     </div>
     <!--<p>Tanggal hari ini : {{ $currdate }}</p>-->
 
-    <h4>Visi:</h4>
+    <h4 style="margin-top:20px">Visi:</h4>
     <p>
         Menjadikan plastik sebagai teman lingkungan yang dapat didaur ulang untuk kepentingan masyarakat
         bersama.

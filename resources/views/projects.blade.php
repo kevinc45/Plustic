@@ -8,7 +8,7 @@
 </head>
 {{-- <body> --}}
 	@section('Header')
-	<h1>Projects</h1>	
+	<h1 style="color:white">Projects</h1>	
 	@endsection
 @section('Content')
 <style type="text/css">
@@ -20,7 +20,7 @@
 </style>
 <h1>Our Projects</h1>
 <h3>List of our plastic-friendly projects.</h3>
-<h4>Our projects consists of:</h4>
+<h4 style="padding-bottom:15px">Our projects consists of:</h4>
 
 {{-- <table border="1">
 	<tr>

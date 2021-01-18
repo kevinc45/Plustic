@@ -11,14 +11,14 @@
 @endsection
  
 @section('Content')
-<table border="1">
+<table style="margin-bottom: 20px" border="1">
 	<tr>
-		<td>Email</td>
-		<td>heythere@plustic.com</td>
+		<td>&nbspEmail&nbsp&nbsp</td>
+		<td>&nbspheythere@plustic.com&nbsp&nbsp</td>
 	</tr>
 	<tr>
-		<td>Phone</td>
-		<td>+6231234567</td>
+		<td>&nbspPhone&nbsp&nbsp</td>
+		<td>&nbsp+6231234567&nbsp&nbsp</td>
 	</tr>
 </table>
 @endsection

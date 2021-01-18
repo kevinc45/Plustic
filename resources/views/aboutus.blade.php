@@ -7,7 +7,7 @@
     <link rel="icon" href="../assets/img/brand/favicon.png">
 </head>
 @section('Header')
-<h1>About Us</h1>
+<h1 style="color:white">About Us</h1>
 @endsection
 @section('Content')
 <style>

@@ -36,6 +36,7 @@ Route::group(['middleware' => 'auth'], function () {
 });
 
 Route::get('/blog','BlogController@index')->name('blog');
+Route::get('/blog/blog-1','BlogController@viewBlog')->name('viewBlog');
 
 Route::get('/projects','projectsController@index')->name('projects');
 Route::get('/projects/add-projects','projectsController@addprojects')->name('add-projects');

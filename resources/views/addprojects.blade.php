@@ -8,7 +8,7 @@
 </head>
 
 @section ('Header')
-	<h1>Add New Project</h1>
+	<h1 style="color:white">Add New Project</h1>
 @endsection
 @section ('Content')
 <body>

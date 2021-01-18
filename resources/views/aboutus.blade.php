@@ -38,7 +38,7 @@
     <h1><center>About Us</h1>
     <h3><center>An Environment-Loving Group of People.</h3>
     
-    <img src="{{ asset('argon') }}/img/resource/aboutus.jpg" alt="Gambar About Us" class="center" width="100%">
+    <img src="{{ asset('argon') }}/img/resource/aboutus.jpg" alt="Gambar About Us" width="100%">
     </div>
     <!--<p>Tanggal hari ini : {{ $currdate }}</p>-->
 

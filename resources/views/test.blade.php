@@ -87,7 +87,7 @@
     <div class="scrollbar-inner">
       <!-- Brand -->
       <div class="sidenav-header  align-items-center">
-        <a class="navbar-brand" href="javascript:void(0)">
+        <a class="navbar-brand" href="/">
           <img src="{{asset('assets')}}/img/brand/LogoPlusticPNG.png" class="navbar-brand-img" alt="...">
         </a>
       </div>

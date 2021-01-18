@@ -28,15 +28,14 @@
 }
 
     h1, h3 {
-        color: #E8A95A;
         font-family: system-ui;
     }
 </style>
 {{-- <body> --}}
     <div>
     {{-- <a href="/"><img src="{{ asset('argon') }}/img/brand/LogoPlusticPNG.png" class="center" alt="Logo PLUSTIC.ID" width="50%"></a> --}}
-    <h1><center>About Us</h1>
-    <h3><center>An Environment-Loving Group of People.</h3>
+    <h1 style="color:#E8A95A"><center>About Us</h1>
+    <h3 style="color:#E8A95A"><center>An Environment-Loving Group of People.</h3>
     
     <img src="{{ asset('argon') }}/img/resource/aboutus.jpg" alt="Gambar About Us" width="100%">
     </div>
